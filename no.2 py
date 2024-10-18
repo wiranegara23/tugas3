@@ -1,5 +1,8 @@
-def print_pattern(n):
-    for i in range(n):
-        print(" " * (i * 2) + "* " * (n - i))
-n = 8
-print_pattern(n)
+n = 7  # Jumlah baris
+
+for i in range(n):
+    # Cetak spasi yang bertambah setiap baris
+    print('   ' * i, end='')
+    
+    # Cetak bintang yang berkurang setiap baris
+    print('* ' * (n - i))
